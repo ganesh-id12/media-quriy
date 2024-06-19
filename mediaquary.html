@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0PX;
+            padding: 0PX;
+            box-sizing: border-box;
+        }
+
+        .main {
+         background-color: yellow;
+         height: 100vh;
+         width: 100vw; 
+         display: flex;
+         justify-content: center;
+         align-items: center;
+
+        }
+        @media screen and (max-width:375px){
+            .main{
+                background-color: red;
+                color: aliceblue;
+            }
+
+        }
+        @media screen and (min-width:376px) and (max-width:820px ) {
+            .main{
+                background-color: green;
+                color:aqua ;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Responcsive Pages</h1>
+    </div>
+</body>
+
+</html>
